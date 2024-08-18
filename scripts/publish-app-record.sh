@@ -104,3 +104,4 @@ ADR_RECORD_ID=$(laconic -c $CONFIG_FILE registry record publish --filename $ADR_
 echo $ADR_RECORD_ID
 
 rm -f $AR_RECORD_FILE $ADR_RECORD_FILE $CONFIG_FILE
+
